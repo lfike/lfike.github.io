@@ -2,3 +2,7 @@ h1 {
 	font-family: "Segoe UI", serif;
 	color: #0b5a7c; 
 }
+
+dt {
+	font-weight: bold;
+}
