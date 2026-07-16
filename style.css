@@ -1,8 +1,39 @@
 h1 {
-	font-family: "Segoe UI", serif;
-	color: #0b5a7c; 
+	font-family: "Georgia", serif;
+	font-size: 2.2rem;
+	color: #0b5a7c;
+
+}
+
+h2 {
+	font-size: 1.5rem;
 }
 
 dt {
 	font-weight: bold;
+}
+
+body {
+	background-color: #EFEFEF;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-top: 5px;
+}
+
+/*
+Singapore page arranged in two column layout for unique layout of content requirement.
+*/
+.layout {
+	display: flex;
+	gap: 24px;
+	align-items: flex-start;
+}
+
+.sidebar {
+	flex: 1;
+}
+
+.main-content {
+	flex: 2;
 }
